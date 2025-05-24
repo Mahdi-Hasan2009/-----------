@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আল হাদিস - ইসলামিক জ্ঞানের আলো</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">সত্যকে জানো</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">হোম</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hadith">গুরুত্বপূর্ণ প্রবন্ধ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#articles">প্রবন্ধ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">বৈশিষ্ট্য</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">যোগাযোগ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">ইসলামিক জ্ঞানের<br>উজ্জ্বল আলো</h1>
+                        <p class="hero-subtitle">সহিহ হাদিস, কুরআনের তাফসির এবং ইসলামিক শিক্ষার সাথে আপনার আত্মিক যাত্রা শুরু করুন।</p>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="#hadith" class="btn-primary">গুরুত্বপূর্ণ প্রবন্ধ</a>
+                            <a href="#articles" class="btn-secondary">প্রবন্ধ দেখুন</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="islamic-art"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Hadith Carousel Section -->
+       <section class="hadith-carousel-section" id="hadith">
+        <div class="container">
+            <h2 class="section-title">গুরুত্বপূর্ণ প্রবন্ধ</h2>
+            <div id="hadithCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#hadithCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#hadithCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#hadithCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#hadithCarousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#hadithCarousel" data-bs-slide-to="4"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h3 class="text-center text-success mb-4">হাদিস ১</h3>
+                        <p class="hadith-text">যে ব্যক্তি আমাদের ধর্মে এমন কিছু নতুন চালু করল, যা এর মধ্যে নেই, তা প্রত্যাখ্যাত।</p>
+                        <p class="hadith-source">- সহিহ বুখারী ও মুসলিম</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h3 class="text-center text-success mb-4">হাদিস ২</h3>
+                        <p class="hadith-text">ভাল কথা বলা ও চেহারায় হাসি থাকা সদকা।</p>
+                        <p class="hadith-source">- সুনান তিরমিজি</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h3 class="text-center text-success mb-4">হাদিস ৩</h3>
+                        <p class="hadith-text">আল্লাহ্‌ সেই বান্দাকে ভালোবাসেন, যে কাজ করলে তা দৃঢ়তার সাথে করে।</p>
+                        <p class="hadith-source">- সুনান বায়হাকি</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h3 class="text-center text-success mb-4">হাদিস ৪</h3>
+                        <p class="hadith-text">তোমাদের মধ্যে সেই ব্যক্তি উত্তম, যে কুরআন শিখে এবং শেখায়।</p>
+                        <p class="hadith-source">- সহিহ বুখারী</p>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h3 class="text-center text-success mb-4">হাদিস ৫</h3>
+                        <p class="hadith-text">জান্নাত মায়ের পায়ের নিচে।</p>
+                        <p class="hadith-source">- সুনান নাসায়ী</p>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#hadithCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                
+                <button class="carousel-control-next" type="button" data-bs-target="#hadithCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Article Carousel Section -->
+    <section class="article-carousel-section" id="articles">
+        <div class="container">
+            <h2 class="section-title">প্রবন্ধ</h2>
+            <div id="articleCarousel" class="carousel slide article-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 mb-4">
+                                <div class="article-slide">
+                                    <img src="assets/6bfa908a9439d979ddd692405def2428.jpeg" alt="নারীর অধিকার ও কুরআন">
+                                    <div class="article-content">
+                                        <h3>🌺 নারীর অধিকার ও কুরআন</h3>
+                                        <p>ইসলাম এমন একটি ধর্ম যা মানুষের জীবনের সব দিক নিয়েই কথা বলে। কুরআন নারীকে দিয়েছে মর্যাদা, নিরাপত্তা ও অর্থনৈতিক স্বাধীনতা।</p>
+                                        <a href="#" class="read-more-btn">বিস্তারিত পড়ুন</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="article-slide">
+                                    <img src="#####" alt="ঈমানের গুরুত্ব">
+                                    <div class="article-content">
+                                        <h3>ঈমানের গুরুত্ব ও ফজিলত</h3>
+                                        <p>ঈমান ইসলামের মূল ভিত্তি। এটি একজন মুসলিমের জীবনে অত্যন্ত গুরুত্বপূর্ণ ভূমিকা পালন করে। ঈমানের অর্থ, গুরুত্ব এবং এর ফজিলত সম্পর্কে বিস্তারিত জানুন।</p>
+                                        <a href="#" class="read-more-btn">বিস্তারিত পড়ুন</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="article-slide">
+                                    <img src="###" alt="নামাজের নিয়ম">
+                                    <div class="article-content">
+                                        <h3>নামাজের সঠিক নিয়ম ও পদ্ধতি</h3>
+                                        <p>ইসলামে নামাজ ফরয ইবাদত। এর সঠিক নিয়ম ও পদ্ধতি জানা প্রত্যেক মুসলিমের জন্য অপরিহার্য। এই প্রবন্ধে নামাজের ধাপে ধাপে নির্দেশনা দেওয়া হয়েছে।</p>
+                                        <a href="#" class="read-more-btn">বিস্তারিত পড়ুন</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 mb-4">
+                                <div class="article-slide">
+                                    <img src="###" alt="জাকাত">
+                                    <div class="article-content">
+                                        <h3>জাকাতের গুরুত্ব ও নিয়মাবলী</h3>
+                                        <p>জাকাত ইসলামের পাঁচটি স্তম্ভের একটি। এটি মুসলিমদের আর্থিক ও সামাজিক দায়বদ্ধতার একটি গুরুত্বপূর্ণ অংশ।</p>
+                                        <a href="#" class="read-more-btn">বিস্তারিত পড়ুন</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="article-slide">
+                                    <img src="###" alt="হজ">
+                                    <div class="article-content">
+                                        <h3>হজের গুরুত্ব ও ফজিলত</h3>
+                                        <p>হজ ইসলামের পাঁচটি রুকনের অন্যতম। সামর্থ্যবান প্রত্যেক মুসলিমের জন্য জীবনে একবার হজ করা ফরজ।</p>
+                                        <a href="#" class="read-more-btn">বিস্তারিত পড়ুন</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="article-slide">
+                                    <img src="###" alt="রোজা">
+                                    <div class="article-content">
+                                        <h3>রোজার গুরুত্ব ও ফজিলত</h3>
+                                        <p>রমজান মাসের রোজা মুসলিমদের জন্য ফরজ। এটি আত্মিক পরিশুদ্ধতা ও তাকওয়া অর্জনের অন্যতম উপায়।</p>
+                                        <a href="#" class="read-more-btn">বিস্তারিত পড়ুন</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#articleCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#articleCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title text-white">আমাদের বৈশিষ্ট্য</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3 class="feature-title">হাদিসের বিশাল সংগ্রহ</h3>
+                        <p class="feature-text">সহিহ বুখারী, মুসলিম, তিরমিজি সহ বিভিন্ন হাদিস গ্রন্থ থেকে হাজার হাজার হাদিস পড়ুন।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card"> 
+                        <div class="feature-icon">🕌</div>
+                        <h3 class="feature-title">কুরআনের তাফসির</h3>
+                        <p class="feature-text">পবিত্র কুরআনের গভীর অর্থ ও ব্যাখ্যা বাংলা ভাষায়।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🕐</div>
+                        <h3 class="feature-title">নামাজের সময়</h3>
+                        <p class="feature-text">আপনার অবস্থান অনুযায়ী সঠিক নামাজের সময়সূচি।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <p class="fs-5 mb-4">ইসলামিক জ্ঞান অর্জন করুন, আত্মিক শান্তি খুঁজে পান</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="border-top border-secondary pt-3 mt-4">
+                    <p>&copy; ২০২৫ আল হাদিস | সর্বস্বত্ব সংরক্ষিত</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
